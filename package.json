@@ -1,25 +1,40 @@
 {
   "name": "@waltoncon/eslint-config",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "Conor Walton",
   "files": [
-    "index.js"
+    "index.js",
+    "prettier.config.js"
   ],
   "devDependencies": {
-    "@waltoncon/eslint-config": "*",
     "eslint": "^8.10.0",
-    "eslint-plugin-vue": "^8.5.0",
+    "prettier": "^2.5.1",
     "typescript": "^4.6.2"
   },
   "peerDependencies": {
-    "eslint": ">=8.0.0",
-    "typescript": ">=4.0"
+    "eslint": ">=7.4.0",
+    "prettier": "^2.5.1",
+    "typescript": ">=3.9"
   },
   "dependencies": {
     "@antfu/eslint-config": "^0.16.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
-    "eslint-config-prettier": "^8.4.0"
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-standard": "17.0.0-0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.0.0",
+    "eslint-plugin-n": "^14.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.2",
+    "eslint-plugin-unicorn": "^40.1.0",
+    "eslint-plugin-vue": "^8.4.0",
+    "eslint-plugin-yml": "^0.12.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
   }
 }

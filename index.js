@@ -1,17 +1,14 @@
 module.exports = {
-    extends: [
-        '@antfu',
-    ],
+    extends: ['@antfu', 'plugin:prettier/recommended'],
     rules: {
-        'semi': 'off',
-        '@typescript-eslint/semi': ['error', 'always'],
-        '@typescript-eslint/indent': ['error', 4],
-        'vue/html-self-closing': ['warn', {
-            html: {
-                void: 'always',
+        'vue/html-self-closing': [
+            'warn',
+            {
+                html: {
+                    void: 'always',
+                },
             },
-        }],
-        'vue/html-indent': ['error', 4],
+        ],
         'vue/v-on-style': 'error',
     },
 };
