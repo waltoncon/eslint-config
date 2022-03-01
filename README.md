@@ -5,14 +5,14 @@
 Install with
 
 ```shell
-pnpm add -D @saffron-monorepo/eslint-config
+pnpm add -D @waltoncon/eslint-config
 ```
 
 Create a `.eslintrc` file and add
 
 ```json
 {
-    "extends": "@saffron-monorepo"
+    "extends": "@waltoncon"
 }
 ```
 
