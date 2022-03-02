@@ -7,6 +7,9 @@
     "index.js",
     "prettier.config.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "eslint": "^8.10.0",
     "prettier": "^2.5.1",
