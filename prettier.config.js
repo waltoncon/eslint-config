@@ -3,4 +3,5 @@ module.exports = {
     semi: true,
     singleQuote: true,
     htmlWhitespaceSensitivity: 'ignore',
+    printWidth: 80,
 };
