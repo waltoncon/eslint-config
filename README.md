@@ -5,8 +5,17 @@ An ESLint config based on [antfu's config](https://github.com/antfu/eslint-confi
 ## Install
 
 ```shell
+# pnpm:
 pnpm add -D typescript eslint prettier # Peer dependencies
 pnpm add -D @waltoncon/eslint-config
+
+# npm:
+npm add -D typescript eslint prettier # Peer dependencies
+npm add -D @waltoncon/eslint-config
+
+# yarn:
+yarn add -D typescript eslint prettier # Peer dependencies
+yarn add -D @waltoncon/eslint-config
 ```
 
 ## Usage
