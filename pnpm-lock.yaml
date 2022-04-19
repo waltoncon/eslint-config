@@ -5,14 +5,12 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.13.0
   '@typescript-eslint/parser': ^5.13.0
   eslint: ^8.10.0
-  eslint-config-prettier: ^8.4.0
   eslint-config-standard: 17.0.0-0
   eslint-plugin-eslint-comments: ^3.2.0
   eslint-plugin-html: ^6.2.0
   eslint-plugin-import: ^2.25.4
   eslint-plugin-jsonc: ^2.0.0
   eslint-plugin-n: ^14.0.0
-  eslint-plugin-prettier: ^4.0.0
   eslint-plugin-promise: ^6.0.0
   eslint-plugin-react: ^7.29.2
   eslint-plugin-unicorn: ^40.1.0
@@ -26,14 +24,12 @@ dependencies:
   '@antfu/eslint-config': 0.16.1_eslint@8.10.0+typescript@4.6.2
   '@typescript-eslint/eslint-plugin': 5.13.0_33fffc354ccfa91fbe7d1677b9395a0a
   '@typescript-eslint/parser': 5.13.0_eslint@8.10.0+typescript@4.6.2
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
   eslint-config-standard: 17.0.0-0_680bb9061bbf9d70cf0efe038dc38008
   eslint-plugin-eslint-comments: 3.2.0_eslint@8.10.0
   eslint-plugin-html: 6.2.0
   eslint-plugin-import: 2.25.4_eslint@8.10.0
   eslint-plugin-jsonc: 2.2.1_eslint@8.10.0
   eslint-plugin-n: 14.0.0_eslint@8.10.0
-  eslint-plugin-prettier: 4.0.0_8af0f52d78c1a51775c2274ddd258a82
   eslint-plugin-promise: 6.0.0_eslint@8.10.0
   eslint-plugin-react: 7.29.2_eslint@8.10.0
   eslint-plugin-unicorn: 40.1.0_eslint@8.10.0
@@ -663,15 +659,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
-    hasBin: true
-    peerDependencies:
-      eslint: '>=7.0.0'
-    dependencies:
-      eslint: 8.10.0
-    dev: false
-
   /eslint-config-standard/17.0.0-0_680bb9061bbf9d70cf0efe038dc38008:
     resolution: {integrity: sha512-sf9udec8fkLTnH82SmhZQ3E31e4eJaMW09Mt9fbN3OccXFtvSSbGrltpQgGFVooGHoIdiMzDfp6ZNFd+I6Ob+w==}
     peerDependencies:
@@ -777,22 +764,6 @@ packages:
       minimatch: 3.1.2
       resolve: 1.22.0
       semver: 6.3.0
-    dev: false
-
-  /eslint-plugin-prettier/4.0.0_8af0f52d78c1a51775c2274ddd258a82:
-    resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
-    engines: {node: '>=6.0.0'}
-    peerDependencies:
-      eslint: '>=7.28.0'
-      eslint-config-prettier: '*'
-      prettier: '>=2.0.0'
-    peerDependenciesMeta:
-      eslint-config-prettier:
-        optional: true
-    dependencies:
-      eslint: 8.10.0
-      eslint-config-prettier: 8.4.0_eslint@8.10.0
-      prettier-linter-helpers: 1.0.0
     dev: false
 
   /eslint-plugin-promise/6.0.0_eslint@8.10.0:
@@ -1004,10 +975,6 @@ packages:
   /fast-deep-equal/3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
-
-  /fast-diff/1.2.0:
-    resolution: {integrity: sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==}
-    dev: false
 
   /fast-glob/3.2.11:
     resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
@@ -1666,13 +1633,6 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
     dev: true
-
-  /prettier-linter-helpers/1.0.0:
-    resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      fast-diff: 1.2.0
-    dev: false
 
   /prop-types/15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
