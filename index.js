@@ -1,7 +1,11 @@
 module.exports = {
-    extends: ['@antfu', 'plugin:prettier/recommended'],
+    extends: ['@antfu'],
     rules: {
-        'prettier/prettier': ['error', require('./prettier.config')],
+        '@typescript-eslint/indent': ['error', 4],
+        '@typescript-eslint/semi': ['error', 'always'],
+        'max-len': ['error', 80],
+        'semi': ['error', 'always'],
+        'vue/html-indent': ['warn', 4],
         'vue/html-self-closing': [
             'warn',
             {
