@@ -6,15 +6,15 @@ An ESLint config based on [antfu's config](https://github.com/antfu/eslint-confi
 
 ```shell
 # pnpm:
-pnpm add -D typescript eslint prettier # Peer dependencies
+pnpm add -D typescript eslint # Peer dependencies
 pnpm add -D @waltoncon/eslint-config
 
 # npm:
-npm add -D typescript eslint prettier # Peer dependencies
+npm add -D typescript eslint # Peer dependencies
 npm add -D @waltoncon/eslint-config
 
 # yarn:
-yarn add -D typescript eslint prettier # Peer dependencies
+yarn add -D typescript eslint # Peer dependencies
 yarn add -D @waltoncon/eslint-config
 ```
 
@@ -26,12 +26,6 @@ yarn add -D @waltoncon/eslint-config
 {
     "extends": "@waltoncon"
 }
-```
-
-`prettier.config.js`
-
-```js
-module.exports = require('@waltoncon/eslint-config/prettier.config.js');
 ```
 
 ## Editor setup
@@ -52,11 +46,6 @@ Add the following to `.vscode/settings.json` in the root of your project
 This eslint config handles the same things as Prettier so `prettier.enable` can be set to false. `source.fixAll.eslint` will fix the issue that Prettier would have fixed.
 
 ### Jetbrains IDEs
-
-**File | Settings | Languages & Frameworks | JavaScript | Prettier** (if you have the Prettier plugin installed)
-
-- Uncheck "On 'Refactor Code' action"
-- Uncheck "On save"
 
 **File | Settings | Languages & Frameworks | JavaScript | Code Quality Tools | ESLint**
 
