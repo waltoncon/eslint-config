@@ -3,10 +3,6 @@ module.exports = {
     rules: {
         '@typescript-eslint/indent': ['error', 4],
         '@typescript-eslint/semi': ['error', 'always'],
-        'max-len': ['error', {
-            code: 80,
-            ignoreUrls: true,
-        }],
         'semi': ['error', 'always'],
         'vue/html-indent': ['warn', 4],
         'vue/html-self-closing': [
