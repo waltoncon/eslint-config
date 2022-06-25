@@ -1,6 +1,6 @@
 # waltoncon eslint config
 
-An ESLint config based on [antfu's config](https://github.com/antfu/eslint-config) that includes Prettier.
+An ESLint config based on [antfu's config](https://github.com/antfu/eslint-config).
 
 ## Install
 
